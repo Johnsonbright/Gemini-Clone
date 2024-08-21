@@ -4,7 +4,7 @@
 }
 
 .sidebar{
-  min-height: 100vh;
+  min-height: 90vh;
   display:inline-flex;
   flex-direction: column;
   justify-content: space-between;
@@ -17,7 +17,7 @@
   cursor:pointer;
 }
 .sidebar .new-chat{
-  margin-top:15px;
+  margin-top:10px;
   display:inline-flex;
   align-items: center;
   gap:10px;
@@ -29,6 +29,7 @@
 
 
 }
+
 .sidebar .recent{
   display:flex;
   flex-direction:column;
@@ -48,6 +49,7 @@
   border-radius:50px;
   color:grey;
   cursor: pointer;
+  
 }
 
 .sidebar .recent-entry:hover{
@@ -58,6 +60,7 @@
 .sidebar .bottom{
   display:flex;
   flex-direction: column;
+  align-items: center;
 }
 .sidebar .bottom-item{
   padding-right: 10px;
